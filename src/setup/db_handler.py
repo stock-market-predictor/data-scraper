@@ -10,5 +10,5 @@ def connect(db_name, *argv):
   c.close()
   
 def __get_storage_path():
-  # TODO get absolute path to storage
-  pass
+  # could be ../ instead of ../../; not sure if call location is based on import location
+  return '../../storage/'
