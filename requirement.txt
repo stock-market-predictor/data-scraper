@@ -1,3 +1,4 @@
+atexit
 bs4
 pandas
 en_core_web_sm
